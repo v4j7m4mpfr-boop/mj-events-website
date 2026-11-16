@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>MJ Events — We Turn Moments Into Memories</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #080808;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero {
+      min-height: 100vh;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,.88), rgba(0,0,0,.25)),
+        linear-gradient(0deg, rgba(0,0,0,.75), transparent 65%),
+        url("public/images/MJ-Events-First-Page.PNG") center/cover no-repeat;
+    }
+
+    .navbar {
+      width: 100%;
+      padding: 28px 7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+    }
+
+    .logo {
+      width: 85px;
+      height: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 35px;
+    }
+
+    .nav-links a {
+      color: #ddd;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      transition: .3s;
+    }
+
+    .nav-links a:hover {
+      color: #e50914;
+    }
+
+    .hero-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 80px 10%;
+    }
+
+    .eyebrow {
+      color: #e50914;
+      font-size: 12px;
+      letter-spacing: 5px;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(65px, 11vw, 150px);
+      line-height: .85;
+      letter-spacing: -8px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    h1 span {
+      color: #e50914;
+    }
+
+    .tagline {
+      margin-top: 35px;
+      font-size: 14px;
+      letter-spacing: 5px;
+      color: #ddd;
+    }
+
+    .hero-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 7%;
+      border-top: 1px solid rgba(255,255,255,.15);
+      font-size: 10px;
+      letter-spacing: 2px;
+      color: #aaa;
+    }
+
+    .scroll {
+      color: #fff;
+    }
+
+    @media (max-width: 650px) {
+      .navbar {
+        padding: 22px 6%;
+      }
+
+      .logo {
+        width: 65px;
+      }
+
+      .nav-links {
+        gap: 13px;
+      }
+
+      .nav-links a {
+        font-size: 9px;
+        letter-spacing: 1px;
+      }
+
+      .hero-content {
+        padding: 60px 7%;
+      }
+
+      h1 {
+        letter-spacing: -4px;
+      }
+
+      .tagline {
+        font-size: 10px;
+        letter-spacing: 3px;
+        line-height: 1.8;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="hero">
+
+    <nav class="navbar">
+      <img
+        src="public/images/mjevents%20logo.png"
+        alt="MJ Events Logo"
+        class="logo"
+      >
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Creating Experiences Since 2018</p>
+
+      <h1>WE ARE<br><span>MJ.</span></h1>
+
+      <p class="tagline">WE TURN MOMENTS INTO MEMORIES</p>
+    </section>
+
+    <footer class="hero-bottom">
+      <span>EVENTS • EXPERIENCES • MEMORIES</span>
+      <span class="scroll">SCROLL TO EXPLORE ↓</span>
+      <span>© MJ EVENTS 2026</span>
+    </footer>
+
+  </main>
+
+</body>
+</html>
