@@ -47,37 +47,37 @@
     const events = {
       "hamaki-2021": {
         artist: "Mohamed Hamaki", title: "A night built around the music.", year: "2021",
-        type: "Live concert", venue: "Golden Jewel Beach & Hotel", city: "Alexandria, Egypt", audience: "18,000",
+        type: "Live concert", venue: "Golden Jewel Beach & Hotel", city: "Alexandria, Egypt",
         description: "A large-scale live concert bringing thousands together for a night of music, production and shared energy.",
         images: ["hamaki-21 -2.jpg","hamaki-21 3.jpg","hamaki-21 4.jpg","hamaki-21..jpg","hamaki-21.jpg"]
       },
       "tamer-ashour-2022": {
         artist: "Tamer Ashour", title: "An unforgettable live performance.", year: "2022",
-        type: "Live concert", venue: "Golden Jewel Beach & Hotel", city: "Alexandria, Egypt", audience: "10,000",
+        type: "Live concert", venue: "Golden Jewel Beach & Hotel", city: "Alexandria, Egypt",
         description: "A live experience shaped by a powerful performance, an engaged audience and a full concert atmosphere.",
         images: ["tamerashour-22 1.jpg","tamerashour-22 2.jpg","tamerashour-22 3.jpg","tamerashour-22 4.jpg","tamerashour-22 5.jpg","tamerashour-22 7.jpg"]
       },
       "ramy-reda-2023": {
         artist: "Ramy Gamal & Reda El Bahrawy", title: "Two artists. One big night.", year: "2023",
-        type: "Live concert", venue: "Golden Jewel Beach & Hotel", city: "Alexandria, Egypt", audience: "12,000",
+        type: "Live concert", venue: "Golden Jewel Beach & Hotel", city: "Alexandria, Egypt",
         description: "A major concert experience featuring two artists and a crowd of thousands.",
         images: ["redaxramygamal-23 2.jpg","reda-23 1.jpg","reda-23  3.jpg"]
       },
       "zaza-shehab-2024": {
         artist: "Ziad Zaza × Shehab El Sayed × LEG-CY", title: "A new wave took the stage.", year: "2024",
-        type: "Live show", venue: "Antoniadis Gardens", city: "Alexandria, Egypt", audience: "15,000",
+        type: "Live show", venue: "Antoniadis Gardens", city: "Alexandria, Egypt",
         description: "A high-energy live show bringing a new generation of artists to one stage in Alexandria.",
         images: ["zaza x shehab x legecy.jpg","zaza x shehab x legecy 2.jpg","zaza x shehab x legecy 3.jpg","zaza x shehab x legecy 4.jpg","zaza x shehab x legecy 5.jpg","zaza x shehab x legecy 6.jpg","zaza x shehab x legecy 7.jpg","zaza x shehab x legecy 8.jpg","zaza x shehab x legecy 9.jpg","zaza x shehab x legecy 10.jpg"]
       },
       "tamer-ashour-2024": {
         artist: "Tamer Ashour", title: "Back to the stage. Bigger than ever.", year: "2024",
-        type: "Live concert", venue: "Antoniadis Gardens", city: "Alexandria, Egypt", audience: "15,000",
+        type: "Live concert", venue: "Antoniadis Gardens", city: "Alexandria, Egypt",
         description: "A large outdoor concert experience at one of Alexandria's landmark venues.",
         images: ["tamerashour-24 1.jpg","tamerashour-24 2.jpg","tamerashour-24 3.jpg","tamerashour-24 4.jpg","tamerashour-24 5.jpg"]
       },
       "ramy-gamal-2025": {
         artist: "Ramy Gamal", title: "A crowd united by the music.", year: "2025",
-        type: "Live concert", venue: "Antoniadis Gardens", city: "Alexandria, Egypt", audience: "8,000",
+        type: "Live concert", venue: "Antoniadis Gardens", city: "Alexandria, Egypt",
         description: "A 2025 live concert produced for thousands of music fans in Alexandria.",
         images: ["ramygamal x felo -25.jpg"]
       }
@@ -106,7 +106,7 @@
       <section class="event-facts">
         <div><span>VENUE</span><strong>${event.venue}</strong></div>
         <div><span>LOCATION</span><strong>${event.city}</strong></div>
-        <div><span>ATTENDANCE</span><strong>${event.audience}</strong></div>
+        
         <div><span>YEAR</span><strong>${event.year}</strong></div>
       </section>
       <section class="event-story">
