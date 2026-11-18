@@ -34,7 +34,7 @@
         }
       });
     }, { threshold: 0.12 });
-    document.querySelectorAll(".service-card,.event-card,.stat,.intro-copy,.about-visual,.section-heading,.work-heading,.contact-inner").forEach(el => {
+    document.querySelectorAll(".service-card,.event-card,.stat,.intro-copy,.intro-grid h2,.about-visual,.section-heading,.philosophy-head,.work-heading,.contact-inner").forEach(el => {
       el.classList.add("reveal");
       observer.observe(el);
     });
